@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Szerkesztés"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/txtview_person_szerkesztes"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Név"
+        android:id="@+id/txtview_person_nev"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Jegy"
+        android:id="@+id/txtview_person_jegy"
+        android:layout_marginEnd="10dp" />
+
+
+</LinearLayout>
